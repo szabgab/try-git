@@ -1,1 +1,1 @@
-Try go on GitHub and travis
+Try go on GitHub and Travis-CI
