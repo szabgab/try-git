@@ -1,0 +1,6 @@
+language: go
+dist: xenial
+go:
+  - "1.14"
+script:
+  - go version
