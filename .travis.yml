@@ -1,6 +1,9 @@
-language: go
-dist: xenial
-go:
-  - "1.14"
-script:
-  - go version
+matrix:
+  include:
+    - language: go
+      dist: xenial
+      go:
+        - "1.14"
+      script:
+        - go version
+        - go run golang/hello.go
